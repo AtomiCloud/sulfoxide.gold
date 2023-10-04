@@ -6,6 +6,14 @@ Expand the name of the chart.
 {{- end }}
 
 {{/*
+allows triming of names
+*/}}
+{{- define "sulfoxide-gold.fullname-with-suffix" -}}
+{{ $fname := (include "sulfoxide-gold.fullname" .root) }}
+{{- printf "%s-%s" $fname .arg | trunc 63 | trimSuffix "-" }}
+{{- end -}}
+
+{{/*
 Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 If release name contains chart name it will be used as a full name.
@@ -35,11 +43,24 @@ Common labels
 */}}
 {{- define "sulfoxide-gold.labels" -}}
 helm.sh/chart: {{ include "sulfoxide-gold.chart" . }}
+{{- range $k, $v := .Values.serviceTree }}
+"atomi.cloud/{{ $k }}": "{{ $v }}"
+{{- end }}
 {{ include "sulfoxide-gold.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
+{{- end }}
+
+{{/*
+Common annotations
+*/}}
+{{- define "sulfoxide-gold.annotations" -}}
+helm.sh/chart: {{ include "sulfoxide-gold.chart" . }}
+{{- range $k, $v := .Values.serviceTree }}
+"atomi.cloud/{{ $k }}": "{{ $v }}"
+{{- end }}
 {{- end }}
 
 {{/*
@@ -58,12 +79,5 @@ Create the name of the service account to use
 {{- default (include "sulfoxide-gold.fullname" .) .Values.serviceAccount.name }}
 {{- else }}
 {{- default "default" .Values.serviceAccount.name }}
-{{- end }}
-{{- end }}
-
-{{- define "sulfoxide-gold.tr8labels" -}}
-tr8.io/chart: {{ include "sulfoxide-gold.chart" . }}
-{{- range $k, $v := .Values.labels }}
-"tr8.io/{{ $k }}": "{{ $v }}"
 {{- end }}
 {{- end }}
