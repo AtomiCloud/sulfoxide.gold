@@ -1,3 +1,11 @@
+## [1.1.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.0.1...v1.1.0) (2023-10-04)
+
+
+### 🚀 New Features
+
+* use external dns ([d651f6a](https://github.com/AtomiCloud/sulfoxide.gold/commit/d651f6a222445e476c0806f2e092fcde7614139b))
+* use external dns ([9fb498d](https://github.com/AtomiCloud/sulfoxide.gold/commit/9fb498d3f93fd51ba0ba7f8be5374029bd581577))
+
 ## [1.0.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.0.0...v1.0.1) (2023-10-04)
 
 
