@@ -10,6 +10,7 @@ traefik:
   service:
     annotations:
       external-dns.alpha.kubernetes.io/hostname: cluster.atomi.cloud
+    external-dns.alpha.kubernetes.io/ttl: "120"
   commonLabels:
     <<: *tags
   deployment:
