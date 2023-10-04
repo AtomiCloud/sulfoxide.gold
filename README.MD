@@ -1,6 +1,6 @@
 # Sulfoxide Gold
 
-Helm chart to deploy Traefik as external ingress for AtomiCloud's Infrastructure
+Helm chart to deploy Nginx as external ingress for AtomiCloud's Infrastructure
 
 ## Prerequisites
 - nix

@@ -29,6 +29,7 @@ let
           yq-go
 
           nodejs_20
+          skopeo
 
           # lint
           treefmt

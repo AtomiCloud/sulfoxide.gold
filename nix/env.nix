@@ -21,6 +21,7 @@ with packages;
   ];
 
   main = [
+    skopeo
   ];
 
   lint = [
