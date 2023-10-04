@@ -1,3 +1,16 @@
+## [1.3.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.2.0...v1.3.0) (2023-10-04)
+
+
+### 🚀 New Features
+
+* migrate to nginx ([4ad99df](https://github.com/AtomiCloud/sulfoxide.gold/commit/4ad99df78e8b13b3a1fb30749860de26e1fcd928))
+
+
+### 🐛 Bug Fixes
+
+* landscape, cluster, external dns annotations ([e731fbd](https://github.com/AtomiCloud/sulfoxide.gold/commit/e731fbd9148571274b8b625ef8e2a4834ff732f8))
+* landscape, cluster, external dns annotations ([50cee6e](https://github.com/AtomiCloud/sulfoxide.gold/commit/50cee6e7395082fbedfb71e8aae7087895be7909))
+
 ## [1.2.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.1.0...v1.2.0) (2023-10-04)
 
 
