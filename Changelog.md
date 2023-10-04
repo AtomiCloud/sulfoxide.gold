@@ -1,3 +1,15 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.3.0...v1.4.0) (2023-10-04)
+
+
+### 🚀 New Features
+
+* allow SSL passthrough ([791f15a](https://github.com/AtomiCloud/sulfoxide.gold/commit/791f15aa7243ae0aef5423c4c45ee79f8b518a61))
+
+
+### 🐛 Bug Fixes
+
+* incorrect extraArgs format ([13bee4c](https://github.com/AtomiCloud/sulfoxide.gold/commit/13bee4c7487808133ed1dd140f1a3d5c06a2c83c))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.2.0...v1.3.0) (2023-10-04)
 
 
