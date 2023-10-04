@@ -7,6 +7,9 @@ tags: &tags
   atomi.cloud/cluster: *cluster
 
 traefik:
+  service:
+    annotations:
+      external-dns.alpha.kubernetes.io/hostname: cluster.atomi.cloud
   commonLabels:
     <<: *tags
   deployment:
