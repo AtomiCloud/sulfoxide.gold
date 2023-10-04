@@ -1,0 +1,40 @@
+version: "3"
+
+env:
+  RELEASE_NAME: sulfoxide-gold
+
+includes:
+  util: tasks/Taskfile.util.yaml
+  entei:opal:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: entei
+      CLUSTER: opal
+
+tasks:
+  # Utility
+  start:cluster:
+    desc: Starts the playground cluster to test helm charts
+    cmds:
+      - ./scripts/local/create-k3d-cluster.sh
+
+  stop:cluster:
+    desc: Destroys the playground cluster to test helm charts
+    cmds:
+      - ./scripts/local/delete-k3d-cluster.sh
+
+  # Helm Operations
+  update:
+    desc: Update Helm dependencies
+    dir: chart
+    cmds:
+      - helm dependency update
+
+  latest:
+    desc: Get the latest version of Traefik
+    cmds:
+      - task: util:latest
+        vars:
+          REPO_NAME: traefik
+          REPO_URL: https://traefik.github.io/charts
+          CHART_NAME: traefik

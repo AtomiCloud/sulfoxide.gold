@@ -1,0 +1,25 @@
+serviceTree:
+  landscape: &landscape entei
+  cluster: &cluster opal
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+traefik:
+  commonLabels:
+    <<: *tags
+  deployment:
+    annotations:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+    labels:
+      <<: *tags
+    podLabels:
+      <<: *tags
+    replicas: 1
+  autoscaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 10
