@@ -35,6 +35,8 @@ ingress-nginx:
   commonLabels:
     <<: *tags
   controller:
+    extraArgs:
+      - --enable-ssl-passthrough
     annotations:
       <<: *tags
     podSecurityContext:
