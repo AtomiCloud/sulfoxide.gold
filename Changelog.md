@@ -1,3 +1,10 @@
+## 1.0.0 (2023-10-04)
+
+
+### 🚀 New Features
+
+* initial commit ([55e0fe9](https://github.com/AtomiCloud/sulfoxide.gold/commit/55e0fe98be49daa00d599972d53afb6975bcf555))
+
 ## [1.3.1](https://github.com/AtomiCloud/sulfoxide.oxygen/compare/v1.3.0...v1.3.1) (2023-10-04)
 
 
