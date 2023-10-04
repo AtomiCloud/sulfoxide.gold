@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.0.0...v1.0.1) (2023-10-04)
+
+
+### 🐛 Bug Fixes
+
+* remove trace of tr8 ([6a355d0](https://github.com/AtomiCloud/sulfoxide.gold/commit/6a355d05e909d78ba83569a9254fcad8ca322e19))
+
 ## 1.0.0 (2023-10-04)
 
 
