@@ -7,11 +7,12 @@ tags: &tags
   atomi.cloud/landscape: *landscape
 
 ingress-nginx:
-  opentelemetry:
-    enabled: false
+
   commonLabels:
     <<: *tags
   controller:
+    opentelemetry:
+      enabled: false
     service:
       annotations:
         external-dns.alpha.kubernetes.io/hostname: cluster.atomi.cloud
