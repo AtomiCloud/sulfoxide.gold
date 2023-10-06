@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.4.0...v1.5.0) (2023-10-06)
+
+
+### 🚀 New Features
+
+* temporality disable OTEL ([96bacb9](https://github.com/AtomiCloud/sulfoxide.gold/commit/96bacb9ed1529f2d66fd83274c26aba33f106ce7))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.3.0...v1.4.0) (2023-10-04)
 
 
