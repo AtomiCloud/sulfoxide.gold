@@ -11,6 +11,8 @@ ingress-nginx:
   commonLabels:
     <<: *tags
   controller:
+    config:
+      enable-opentelemetry: "false"
     opentelemetry:
       enabled: false
     service:
