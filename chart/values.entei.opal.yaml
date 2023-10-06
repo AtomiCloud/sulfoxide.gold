@@ -7,6 +7,8 @@ tags: &tags
   atomi.cloud/landscape: *landscape
 
 ingress-nginx:
+  opentelemetry:
+    enabled: false
   commonLabels:
     <<: *tags
   controller:
