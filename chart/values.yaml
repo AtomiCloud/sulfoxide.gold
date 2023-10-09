@@ -3,12 +3,14 @@ serviceTree:
   platform: &platform sulfoxide
   service: &service gold
   layer: &layer "1"
+  module: &module core
 
 # -- Kubernetes labels and annotations, following Service Tree
 tags: &tags
   atomi.cloud/platform: *platform
   atomi.cloud/service: *service
   atomi.cloud/layer: *layer
+  atomi.cloud/module: *module
 
 # -- YAML Anchor for PodSecurityContext
 podSecurityContext: &podSecurityContext
