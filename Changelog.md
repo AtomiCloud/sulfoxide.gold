@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.7.1...v1.7.2) (2023-10-09)
+
+
+### 🐛 Bug Fixes
+
+* module label ([a8346b5](https://github.com/AtomiCloud/sulfoxide.gold/commit/a8346b5e8494bc887bc0029614e4655f50364a9d))
+
 ## [1.7.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.7.0...v1.7.1) (2023-10-09)
 
 
