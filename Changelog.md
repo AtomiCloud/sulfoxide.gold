@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.7.0...v1.7.1) (2023-10-09)
+
+
+### 🐛 Bug Fixes
+
+* **entei:** incorrect landscape label/annotation ([1ba29f0](https://github.com/AtomiCloud/sulfoxide.gold/commit/1ba29f002b0f197f9b319bde1a87ebc912a39e6d))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.6.0...v1.7.0) (2023-10-06)
 
 
