@@ -1,6 +1,6 @@
 serviceTree:
   cluster: &cluster opal
-  landscape: &landscape sulfoxide
+  landscape: &landscape entei
 
 tags: &tags
   atomi.cloud/cluster: *cluster
