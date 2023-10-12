@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.7.2...v1.8.0) (2023-10-12)
+
+
+### 🚀 New Features
+
+* annotations ([550ed9f](https://github.com/AtomiCloud/sulfoxide.gold/commit/550ed9f099c73e3738aa1c98e1f05275c8e9e2db))
+
 ## [1.7.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.7.1...v1.7.2) (2023-10-09)
 
 
