@@ -61,6 +61,10 @@ ingress-nginx:
       enable-ssl-passthrough: "true"
     annotations:
       <<: *tags
+    podAnnotations:
+      <<: *tags
+    labels:
+      <<: *tags
     podSecurityContext:
       <<: *podSecurityContext
     resources:

@@ -21,6 +21,10 @@ ingress-nginx:
         external-dns.alpha.kubernetes.io/ttl: "120"
     annotations:
       <<: *tags
+    podAnnotations:
+      <<: *tags
+    labels:
+      <<: *tags
     resources:
       limits:
         cpu: 4
