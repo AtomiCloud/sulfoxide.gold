@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.9.1...v1.10.0) (2023-10-15)
+
+
+### 🚀 New Features
+
+* enable metrics ([f0139c9](https://github.com/AtomiCloud/sulfoxide.gold/commit/f0139c95dc1a21349a17f30f4ab7c1c57857e0d8))
+
 ## [1.9.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.9.0...v1.9.1) (2023-10-15)
 
 
