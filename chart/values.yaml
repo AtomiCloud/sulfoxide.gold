@@ -37,6 +37,11 @@ ingress-nginx:
   commonLabels:
     <<: *tags
   controller:
+    metrics:
+      enabled: true
+      serviceMonitor:
+        enabled: true
+        scrapeInterval: 60s
     config:
       enable-opentelemetry: "true"
       opentelemetry-config: "/etc/nginx/opentelemetry.toml"
