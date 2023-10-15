@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.9.0...v1.9.1) (2023-10-15)
+
+
+### 🐛 Bug Fixes
+
+* containerSecurityContext ([7c2e06f](https://github.com/AtomiCloud/sulfoxide.gold/commit/7c2e06f5601e7a15b90a6dce4919527b43382cf0))
+
 ## [1.9.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.8.0...v1.9.0) (2023-10-15)
 
 
