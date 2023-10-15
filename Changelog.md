@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.8.0...v1.9.0) (2023-10-15)
+
+
+### 🚀 New Features
+
+* enable OTEL for nginx ([e1d2273](https://github.com/AtomiCloud/sulfoxide.gold/commit/e1d227362969c078e39481d5fcf0a505babbdad8))
+
 ## [1.8.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.7.2...v1.8.0) (2023-10-12)
 
 
