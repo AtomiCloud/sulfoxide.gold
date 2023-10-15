@@ -42,7 +42,7 @@ ingress-nginx:
       opentelemetry-config: "/etc/nginx/opentelemetry.toml"
       opentelemetry-operation-name: "HTTP $request_method $service_name $uri"
       opentelemetry-trust-incoming-span: "true"
-      otlp-collector-host: "otel-coll-collector.otel.svc"
+      otlp-collector-host: "entei-silicon-otlp-collector.sulfoxide.svc"
       otlp-collector-port: "4317"
       otel-max-queuesize: "2048"
       otel-schedule-delay-millis: "5000"
