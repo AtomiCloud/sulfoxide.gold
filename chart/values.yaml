@@ -80,7 +80,7 @@ ingress-nginx:
     autoscaling:
       enabled: true
       minReplicas: 3
-      maxReplicas: 6
+      maxReplicas: 12
       targetCPUUtilizationPercentage: 75
       targetMemoryUtilizationPercentage: 75
     podLabels:
