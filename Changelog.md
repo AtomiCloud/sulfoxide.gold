@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.10.0...v1.11.0) (2023-10-16)
+
+
+### 🚀 New Features
+
+* request more for nginx ([d345508](https://github.com/AtomiCloud/sulfoxide.gold/commit/d345508066d6dc8cedfdcd04b22655d5d876ab6e))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.9.1...v1.10.0) (2023-10-15)
 
 
