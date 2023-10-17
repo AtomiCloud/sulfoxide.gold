@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.11.0...v1.11.1) (2023-10-17)
+
+
+### 🐛 Bug Fixes
+
+* migrate to new domain scheme ([ce3a6b0](https://github.com/AtomiCloud/sulfoxide.gold/commit/ce3a6b06f6c02cd97e1b296058e6e328f96074dd))
+
 ## [1.11.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.10.0...v1.11.0) (2023-10-16)
 
 
