@@ -79,7 +79,7 @@ ingress-nginx:
         memory: 256Mi
     autoscaling:
       enabled: true
-      minReplicas: 3
+      minReplicas: 1
       maxReplicas: 12
       targetCPUUtilizationPercentage: 75
       targetMemoryUtilizationPercentage: 75

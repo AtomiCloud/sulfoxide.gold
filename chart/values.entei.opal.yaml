@@ -17,7 +17,7 @@ ingress-nginx:
       enabled: true
     service:
       annotations:
-        external-dns.alpha.kubernetes.io/hostname: cluster.atomi.cloud
+        external-dns.alpha.kubernetes.io/hostname: opal.lb.atomi.cloud
         external-dns.alpha.kubernetes.io/ttl: "120"
     annotations:
       <<: *tags
