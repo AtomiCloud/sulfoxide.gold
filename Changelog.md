@@ -1,3 +1,10 @@
+## [1.12.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.11.1...v1.12.0) (2023-11-18)
+
+
+### 🚀 New Features
+
+* ruby values ([46e964e](https://github.com/AtomiCloud/sulfoxide.gold/commit/46e964e0dec5edf00fb9b0eb8e4c97242e095bae))
+
 ## [1.11.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.11.0...v1.11.1) (2023-10-17)
 
 
