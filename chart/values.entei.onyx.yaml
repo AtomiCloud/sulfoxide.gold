@@ -1,0 +1,37 @@
+serviceTree:
+  cluster: &cluster onyx
+  landscape: &landscape entei
+
+tags: &tags
+  atomi.cloud/cluster: *cluster
+  atomi.cloud/landscape: *landscape
+
+ingress-nginx:
+
+  commonLabels:
+    <<: *tags
+  controller:
+    config:
+      enable-opentelemetry: "true"
+    opentelemetry:
+      enabled: true
+    service:
+      annotations:
+        external-dns.alpha.kubernetes.io/hostname: onyx.lb.atomi.cloud
+        external-dns.alpha.kubernetes.io/ttl: "120"
+    annotations:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+    labels:
+      <<: *tags
+    resources:
+      limits:
+        cpu: 2
+        memory: 4Gi
+      requests:
+        cpu: 500m
+        memory: 512Mi
+    replicaCount: 2
+    podLabels:
+      <<: *tags
