@@ -7,7 +7,6 @@ tags: &tags
   atomi.cloud/landscape: *landscape
 
 ingress-nginx:
-
   commonLabels:
     <<: *tags
   controller:
