@@ -43,8 +43,8 @@ ingress-nginx:
         topologyKey: "topology.kubernetes.io/zone"
         whenUnsatisfiable: ScheduleAnyway
         labelSelector:
-        matchLabels:
-          <<: *tags
+          matchLabels:
+            <<: *tags
     metrics:
       enabled: true
       serviceMonitor:
