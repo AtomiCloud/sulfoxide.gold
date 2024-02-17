@@ -16,8 +16,9 @@ ingress-nginx:
       enabled: true
     service:
       ipFamilies:
-        - "IPv6"
-      ipFamilyPolicy: SingleStack
+        - IPv4
+        - IPv6
+      ipFamilyPolicy: PreferDualStack
       annotations:
         external-dns.alpha.kubernetes.io/hostname: onyx.lb.atomi.cloud
         external-dns.alpha.kubernetes.io/ttl: "120"
