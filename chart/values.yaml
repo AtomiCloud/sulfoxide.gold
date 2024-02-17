@@ -30,7 +30,7 @@ securityContext: &securityContext
     drop:
       - ALL
 
-# -- External Ingress Controller configuration. See [Nginx Helm Chart](https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/)
+# -- External Ingress Controller configuration. See [Nginx Helm Chart](https://kubernetes.github.io/ingress-nginx/deploy/)
 ingress-nginx:
   podSecurityPolicy:
     <<: *podSecurityContext

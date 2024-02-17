@@ -15,6 +15,9 @@ ingress-nginx:
     opentelemetry:
       enabled: true
     service:
+      ipFamilies:
+        - "IPv6"
+      ipFamilyPolicy: SingleStack
       annotations:
         external-dns.alpha.kubernetes.io/hostname: onyx.lb.atomi.cloud
         external-dns.alpha.kubernetes.io/ttl: "120"
