@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.2...v1.13.3) (2024-02-17)
+
+
+### 🐛 Bug Fixes
+
+* incorrect topologySpreadConstraints ([b11783f](https://github.com/AtomiCloud/sulfoxide.gold/commit/b11783f4acf96b2edc44a75d0009fd42e12298e7))
+
 ## [1.13.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.1...v1.13.2) (2024-02-17)
 
 
