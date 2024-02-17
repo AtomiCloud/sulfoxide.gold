@@ -1,3 +1,19 @@
+## [1.13.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.12.0...v1.13.0) (2024-02-17)
+
+
+### 🚀 New Features
+
+* onyx cluster ([f3e3dd9](https://github.com/AtomiCloud/sulfoxide.gold/commit/f3e3dd9db4e3670dc3e0ddf78d5e5681a970d41d))
+* topologySpreadConstraints ([35fc66c](https://github.com/AtomiCloud/sulfoxide.gold/commit/35fc66cfef032cd9ad8130384e101c6792c3ad29))
+
+
+### 🐛 Bug Fixes
+
+* include annotations for AWS LB controller ([78a083d](https://github.com/AtomiCloud/sulfoxide.gold/commit/78a083d13dcab360d9adbd003e1252b468d09ef1))
+* incorrect IP families and policy ([75d9337](https://github.com/AtomiCloud/sulfoxide.gold/commit/75d933774811f21fc52a949fe2049c8522b0d625))
+* ipFamilies for ipv6-only clusters ([5b56736](https://github.com/AtomiCloud/sulfoxide.gold/commit/5b56736ec71127a4a2e6d6711e282a8d66457949))
+* releaser ([f0eadce](https://github.com/AtomiCloud/sulfoxide.gold/commit/f0eadce164d495d9cb95ffa8404c5b724724a77c))
+
 ## [1.12.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.11.1...v1.12.0) (2023-11-18)
 
 
