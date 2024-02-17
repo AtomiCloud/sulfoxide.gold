@@ -18,6 +18,14 @@ ingress-nginx:
       annotations:
         external-dns.alpha.kubernetes.io/hostname: onyx.lb.atomi.cloud
         external-dns.alpha.kubernetes.io/ttl: "120"
+        service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: "ip"
+        service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
+        service.beta.kubernetes.io/aws-load-balancer-type: "external"
+        service.beta.kubernetes.io/aws-load-balancer-ip-address-type: "ipv4"
+        service.beta.kubernetes.io/aws-load-balancer-attributes: "load_balancing.cross_zone.enabled=true,deletion_protection.enabled=true"
+        service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
+        service.beta.kubernetes.io/aws-load-balancer-name: "entei-onyx-sulfoxide-gold"
+        service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: "atomi.cloud/landscape=entei,atomi.cloud/cluster=onyx,atomi.cloud/platform=sulfoxide,atomi.cloud/service=gold,atomi.cloud/module=load-balancer,atomi.cloud/layer=1"
     annotations:
       <<: *tags
     podAnnotations:

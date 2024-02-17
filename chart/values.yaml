@@ -36,6 +36,7 @@ ingress-nginx:
     <<: *podSecurityContext
   commonLabels:
     <<: *tags
+
   controller:
     topologySpreadConstraints:
       - maxSkew: 1
