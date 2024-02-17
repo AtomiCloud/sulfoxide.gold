@@ -1,3 +1,11 @@
+## [1.13.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.0...v1.13.1) (2024-02-17)
+
+
+### 🐛 Bug Fixes
+
+* incorrect ip-address-type for AWS LB Controller (ipv6 cluster) ([9379287](https://github.com/AtomiCloud/sulfoxide.gold/commit/937928769a09193f297447930f08296216efaa51))
+* only use SingleStack ([d7ab57c](https://github.com/AtomiCloud/sulfoxide.gold/commit/d7ab57c5b38c517ad2320c9cec12bebc8dfece22))
+
 ## [1.13.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.12.0...v1.13.0) (2024-02-17)
 
 
