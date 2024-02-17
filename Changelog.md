@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.1...v1.13.2) (2024-02-17)
+
+
+### 🐛 Bug Fixes
+
+* incorrect ip-address-type, from dual-stack to dualstack ([3d61bd6](https://github.com/AtomiCloud/sulfoxide.gold/commit/3d61bd6fc7e902e76a1db0f03a890843004db2e5))
+
 ## [1.13.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.0...v1.13.1) (2024-02-17)
 
 
