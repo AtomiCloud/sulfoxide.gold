@@ -1,3 +1,10 @@
+## [1.18.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.17.1...v1.18.0) (2024-02-19)
+
+
+### 🚀 New Features
+
+* more logs for service, ingress and namespace ([874508e](https://github.com/AtomiCloud/sulfoxide.gold/commit/874508e185ea8a3954d09f36cbf51b870bf31ae3))
+
 ## [1.17.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.17.0...v1.17.1) (2024-02-19)
 
 
