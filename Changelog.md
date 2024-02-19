@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.0...v1.19.1) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* incorrectt ip-address-type ([032f845](https://github.com/AtomiCloud/sulfoxide.gold/commit/032f8450da174ff188138777521d7eca1c241c8e))
+
 ## [1.19.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.18.0...v1.19.0) (2024-02-19)
 
 
