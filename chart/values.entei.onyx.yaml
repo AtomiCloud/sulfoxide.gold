@@ -14,6 +14,7 @@ ingress-nginx:
     config:
       enable-opentelemetry: "true"
       skip-access-log-urls: "/healthz"
+      use-proxy-protocol: "true"
     opentelemetry:
       enabled: true
     service:
