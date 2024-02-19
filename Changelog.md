@@ -1,3 +1,11 @@
+## [1.16.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.16.0...v1.16.1) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* incorrect flattening of yaml ([5f6e166](https://github.com/AtomiCloud/sulfoxide.gold/commit/5f6e1666b5ed89a0da06ee7c25d89f476ba580e9))
+* incorrect flattening of yaml ([cc650a0](https://github.com/AtomiCloud/sulfoxide.gold/commit/cc650a032ad5d59a8abd2ff1e96ea5e76797bf0c))
+
 ## [1.16.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.15.0...v1.16.0) (2024-02-19)
 
 
