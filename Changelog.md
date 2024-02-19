@@ -1,3 +1,10 @@
+## [1.20.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.4...v1.20.0) (2024-02-19)
+
+
+### 🚀 New Features
+
+* disable proxy protocol ([39d138d](https://github.com/AtomiCloud/sulfoxide.gold/commit/39d138d12100eeec1e98d0bbc1ce76b1065b0497))
+
 ## [1.19.4](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.3...v1.19.4) (2024-02-19)
 
 
