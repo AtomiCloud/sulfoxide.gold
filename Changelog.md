@@ -1,3 +1,10 @@
+## [1.16.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.15.0...v1.16.0) (2024-02-19)
+
+
+### 🚀 New Features
+
+* record upstream in logs ([c28915c](https://github.com/AtomiCloud/sulfoxide.gold/commit/c28915ca2d10e2e2702658112d71520505d2b961))
+
 ## [1.15.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.14.0...v1.15.0) (2024-02-19)
 
 
