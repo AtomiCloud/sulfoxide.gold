@@ -1,3 +1,10 @@
+## [1.17.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.16.2...v1.17.0) (2024-02-19)
+
+
+### 🚀 New Features
+
+* request to logs ([91eb366](https://github.com/AtomiCloud/sulfoxide.gold/commit/91eb366bf90945cfbf276cab11d357a55cd58bd3))
+
 ## [1.16.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.16.1...v1.16.2) (2024-02-19)
 
 
