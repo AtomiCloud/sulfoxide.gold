@@ -1,3 +1,10 @@
+## [1.14.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.3...v1.14.0) (2024-02-19)
+
+
+### 📦 Upstreams Changes
+
+* nginx to 4.9.1 ([0f004ca](https://github.com/AtomiCloud/sulfoxide.gold/commit/0f004ca7ec889e179e3cbfdabb36e73f9b7402ca))
+
 ## [1.13.3](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.2...v1.13.3) (2024-02-17)
 
 
