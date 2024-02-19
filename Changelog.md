@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.1...v1.19.2) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* change health check port ([5e57a66](https://github.com/AtomiCloud/sulfoxide.gold/commit/5e57a661de08fac205690abf37de25f117d70e30))
+
 ## [1.19.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.0...v1.19.1) (2024-02-19)
 
 
