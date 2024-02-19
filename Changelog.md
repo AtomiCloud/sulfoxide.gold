@@ -1,3 +1,10 @@
+## [1.15.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.14.0...v1.15.0) (2024-02-19)
+
+
+### 🚀 New Features
+
+* allow log JSON format ([3d2bb7b](https://github.com/AtomiCloud/sulfoxide.gold/commit/3d2bb7b468013c20b09e36a42bb7de233d783b27))
+
 ## [1.14.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.13.3...v1.14.0) (2024-02-19)
 
 
