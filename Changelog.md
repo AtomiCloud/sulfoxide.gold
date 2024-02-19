@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.2...v1.19.3) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* use traffic port for healthcheck ([bf6be1c](https://github.com/AtomiCloud/sulfoxide.gold/commit/bf6be1c4f0351a9fcbf48cef31a8a1c004fceb56))
+
 ## [1.19.2](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.1...v1.19.2) (2024-02-19)
 
 
