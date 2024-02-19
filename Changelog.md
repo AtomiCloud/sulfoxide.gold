@@ -1,3 +1,10 @@
+## [1.19.4](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.3...v1.19.4) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* remove http health checks ([00310f1](https://github.com/AtomiCloud/sulfoxide.gold/commit/00310f164bfdaad1510d58226d731b35f9feed4e))
+
 ## [1.19.3](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.2...v1.19.3) (2024-02-19)
 
 
