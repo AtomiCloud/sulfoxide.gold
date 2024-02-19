@@ -13,6 +13,7 @@ ingress-nginx:
   controller:
     config:
       enable-opentelemetry: "true"
+      skip-access-log-urls: "/healthz"
     opentelemetry:
       enabled: true
     service:
@@ -28,7 +29,6 @@ ingress-nginx:
         service.beta.kubernetes.io/aws-load-balancer-type: "external"
         service.beta.kubernetes.io/aws-load-balancer-healthcheck-path: "/healthz"
         service.beta.kubernetes.io/aws-load-balancer-healthcheck-protocol: http
-        service.beta.kubernetes.io/aws-load-balancer-healthcheck-port: "10254"
         service.beta.kubernetes.io/aws-load-balancer-ip-address-type: "dualstack"
         service.beta.kubernetes.io/aws-load-balancer-attributes: "load_balancing.cross_zone.enabled=true,deletion_protection.enabled=true"
         service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
