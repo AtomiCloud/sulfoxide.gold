@@ -14,7 +14,7 @@ ingress-nginx:
     config:
       enable-opentelemetry: "true"
       skip-access-log-urls: "/healthz"
-      use-proxy-protocol: "true"
+#      use-proxy-protocol: "true"
     opentelemetry:
       enabled: true
     service:
@@ -30,7 +30,7 @@ ingress-nginx:
         service.beta.kubernetes.io/aws-load-balancer-type: "external"
         service.beta.kubernetes.io/aws-load-balancer-ip-address-type: "dualstack"
         service.beta.kubernetes.io/aws-load-balancer-attributes: "load_balancing.cross_zone.enabled=true,deletion_protection.enabled=true"
-        service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
+#        service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
         service.beta.kubernetes.io/aws-load-balancer-name: "entei-onyx-sulfoxide-gold"
         service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: "atomi.cloud/landscape=entei,atomi.cloud/cluster=onyx,atomi.cloud/platform=sulfoxide,atomi.cloud/service=gold,atomi.cloud/module=load-balancer,atomi.cloud/layer=1"
     annotations:
