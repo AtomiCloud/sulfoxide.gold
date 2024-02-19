@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.17.0...v1.17.1) (2024-02-19)
+
+
+### 🐛 Bug Fixes
+
+* remove request ([1b1b9c0](https://github.com/AtomiCloud/sulfoxide.gold/commit/1b1b9c012c370652ccfa80050d2d97af320606c3))
+
 ## [1.17.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.16.2...v1.17.0) (2024-02-19)
 
 
