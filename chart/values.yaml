@@ -86,7 +86,11 @@ ingress-nginx:
         "duration": $request_time,
         "method": "$request_method",
         "http_referrer": "$http_referer",
-        "http_user_agent": "$http_user_agent"
+        "http_user_agent": "$http_user_agent",
+        "service_name": "$service_name",
+        "service_port": "$server_port",
+        "namespace": "$namespace",
+        "ingress_name": "$ingress_name"
         }
 
     opentelemetry:
