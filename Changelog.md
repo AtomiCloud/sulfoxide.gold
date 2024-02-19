@@ -1,3 +1,10 @@
+## [1.19.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.18.0...v1.19.0) (2024-02-19)
+
+
+### 🚀 New Features
+
+* more logs, request, host and hostname ([70496db](https://github.com/AtomiCloud/sulfoxide.gold/commit/70496db5f2e2a5efacfc6d138b7746f7fc7c3773))
+
 ## [1.18.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.17.1...v1.18.0) (2024-02-19)
 
 
