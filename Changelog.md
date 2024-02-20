@@ -1,3 +1,10 @@
+## [1.21.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.20.0...v1.21.0) (2024-02-20)
+
+
+### 🚀 New Features
+
+* remove minDomains ([59b0c25](https://github.com/AtomiCloud/sulfoxide.gold/commit/59b0c2502cf41099193e21b3e5fb102dd37a51de))
+
 ## [1.20.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.19.4...v1.20.0) (2024-02-19)
 
 
