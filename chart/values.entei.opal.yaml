@@ -30,8 +30,8 @@ ingress-nginx:
         cpu: 2
         memory: 4Gi
       requests:
-        cpu: 500m
-        memory: 512Mi
+        cpu: 250m
+        memory: 256Mi
     replicaCount: 2
     podLabels:
       <<: *tags

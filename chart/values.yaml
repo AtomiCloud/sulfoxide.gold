@@ -41,8 +41,7 @@ ingress-nginx:
     topologySpreadConstraints:
       - maxSkew: 1
         topologyKey: "topology.kubernetes.io/zone"
-        whenUnsatisfiable: DoNotSchedule
-        minDomains: 3
+        whenUnsatisfiable: ScheduleAnyway
         labelSelector:
           matchLabels:
             <<: *tags
