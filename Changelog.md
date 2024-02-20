@@ -1,3 +1,10 @@
+## [1.22.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.21.0...v1.22.0) (2024-02-20)
+
+
+### 🚀 New Features
+
+* revert back to ipv4 ([ca7f735](https://github.com/AtomiCloud/sulfoxide.gold/commit/ca7f73501f4ce8743a14203f995bc0e06992ed95))
+
 ## [1.21.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.20.0...v1.21.0) (2024-02-20)
 
 
