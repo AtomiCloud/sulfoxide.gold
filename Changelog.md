@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.22.0...v1.22.1) (2024-02-20)
+
+
+### 🐛 Bug Fixes
+
+* ipv4 load balancer ([e5fcc8b](https://github.com/AtomiCloud/sulfoxide.gold/commit/e5fcc8bf845f5b11995e66c3e8cf469ec85af700))
+
 ## [1.22.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.21.0...v1.22.0) (2024-02-20)
 
 
