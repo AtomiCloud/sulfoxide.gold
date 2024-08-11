@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.23.0...v1.23.1) (2024-08-11)
+
+
+### 🐛 Bug Fixes
+
+* correct load balancer annotation ([98e5b50](https://github.com/AtomiCloud/sulfoxide.gold/commit/98e5b5070221e1c625a51a4b5b1a8eb6504d4fb2))
+
 ## [1.23.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.22.1...v1.23.0) (2024-08-11)
 
 
