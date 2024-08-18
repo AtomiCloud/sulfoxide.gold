@@ -1,3 +1,10 @@
+## [1.24.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.23.1...v1.24.0) (2024-08-18)
+
+
+### 🚀 New Features
+
+* removing deletion protection ([6b24711](https://github.com/AtomiCloud/sulfoxide.gold/commit/6b24711ef3fb3d6ebde2af7e497ba2b95536973b))
+
 ## [1.23.1](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.23.0...v1.23.1) (2024-08-11)
 
 
