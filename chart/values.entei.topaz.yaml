@@ -25,7 +25,7 @@ ingress-nginx:
         service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
         service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "tcp"
         service.beta.kubernetes.io/aws-load-balancer-type: "external"
-        service.beta.kubernetes.io/aws-load-balancer-attributes: "deletion_protection.enabled=true"
+#        service.beta.kubernetes.io/aws-load-balancer-attributes: "deletion_protection.enabled=true"
         #        service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
         service.beta.kubernetes.io/aws-load-balancer-name: "entei-topaz-sulfoxide-gold"
         service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: "atomi.cloud/landscape=entei,atomi.cloud/cluster=topaz,atomi.cloud/platform=sulfoxide,atomi.cloud/service=gold,atomi.cloud/module=load-balancer,atomi.cloud/layer=1"
