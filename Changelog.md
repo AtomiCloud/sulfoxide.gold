@@ -1,3 +1,10 @@
+## [1.25.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.24.0...v1.25.0) (2024-08-28)
+
+
+### 🚀 New Features
+
+* values for mica & talc ([b92ed6d](https://github.com/AtomiCloud/sulfoxide.gold/commit/b92ed6df05c5bc23999d52d894d2712ee3dcc3cf))
+
 ## [1.24.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.23.1...v1.24.0) (2024-08-18)
 
 
