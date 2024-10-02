@@ -1,3 +1,10 @@
+## [1.26.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.25.0...v1.26.0) (2024-10-02)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** ugrading to 28.0.0 ([a4a07a3](https://github.com/AtomiCloud/sulfoxide.gold/commit/a4a07a32941a9f16fc740ef20fc32e51dd190fb7))
+
 ## [1.25.0](https://github.com/AtomiCloud/sulfoxide.gold/compare/v1.24.0...v1.25.0) (2024-08-28)
 
 
